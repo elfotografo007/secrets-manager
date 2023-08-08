@@ -225,7 +225,7 @@ func main() {
 What the demo workload does is to try to fetch a secret every 5 seconds
 using the `sentry.Fetch()` function.
 
-`sentery.Fetch()` is a function provided by the **VMware Secrets Manager**;
+`sentry.Fetch()` is a function provided by the **VMware Secrets Manager**;
 it establishes a secure mTLS connection between the workload and
 **VSecM Safe** to fetch the secret.
 
